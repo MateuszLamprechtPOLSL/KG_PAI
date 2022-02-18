@@ -1,0 +1,164 @@
+body
+	{
+		background-color:#eeeeee;
+		font-family: 'Abhaya Libre', serif;
+		font-size:18px;
+	}
+
+.menutop
+	{
+		display: inline-block;
+		z-index: 2;
+		text-align:center; 
+		position:fixed; 
+		top: 0;
+		width:100%;
+		padding-top:12px;
+		height:54px;
+		border: 2px solid white;
+		background-color: #212529;
+	}
+	
+.cel_wizyty
+	{
+		text-align:center;
+		width:100%;
+	}
+	
+.dane
+	{
+		text-align:center;
+		width:100%;
+	}
+
+ul 
+	{
+		width: 100%;
+        font-size:130px;  
+    }
+
+      /* wygląd wszystkich elementów - a - znajdujących się w elemencie - ol */
+ul a 
+	{
+		text-align:center;
+        text-decoration:none;
+        color:#000;			
+	}
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol */
+ul > li 
+	{
+		text-align:center;
+	}
+
+      /* wygląd elementu - li - pierwszego dziecka elementu - ol */
+ul > li:first-child 
+	{
+		text-align:center;
+        text-decoration:none;
+		color:#000;
+    }
+
+      /* wygląd elementów - li - wszystkich dzieci elementu - ol - po najechaniu kursorem myszki na element - li */
+ul > li:hover 
+	  {
+        background-color:#EEE;
+		text-align:center;
+        text-decoration:none;
+        color:#000;		
+      }
+
+      /* wygląd elementu - a - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+ul > li:hover > a 
+	  {
+        color:#09C;
+		display:block;
+		text-align:center;
+        text-decoration:none;
+        color:#000;
+      }
+
+      /* wygląd elementu - ul - dziecka elementu - li - będącego dzieckiem elementu - ol - po najechaniu kursorem myszki na element - li */
+ul > li:hover > ul 
+	{
+		display:block;
+    }
+
+      /* ------------------------CZĘŚĆ-ROZWIJANA-MENU------------------------ */
+
+      /* wygląd głównych rozwijanych elementów - ul */
+ul > li > ul
+	{
+        padding:0;
+        margin:0;
+    }
+
+      /* wygląd elementu - li - w części rozwijanej */
+ul > li > ul > li 
+	{
+		position:relative;
+        background-color:#EEE;
+	}
+
+      /* wygląd elementu - li - w części rozwijanej, po najechaniu kursorem myszki na dany element - li */
+ul > li > ul > li:hover 
+	{
+		background-color:#DDD;
+	}
+
+      /* wygląd elementu - a - w części rozwijanej, po najechaniu kursorem myszki na element - li */
+ul > li > ul > li:hover > a 
+	{
+		color:#09C;
+    }
+
+#pojemnik
+	{
+		width:1000px;
+		margin-left:auto;
+		margin-right:auto;		
+	}
+.naglowek
+	{
+		background-color:#303030;
+		text-align:center;
+		color:#ffffff;
+	}
+.btn_group
+{
+	box-sizing: border-box;
+}
+.zawartosc
+	{
+		float:left;
+		width:70%;
+	}
+	
+.panel_boczny
+	{
+		float:left;
+		width:30%;
+		min-height: 400px;
+	}
+
+.stopka
+	{
+		margin-top:90px;
+		clear:both;
+		text-align:center;
+		min-height:100;
+		padding:4px;
+		background-color:#303030;
+		color:#ffffff;
+	}
+#logo
+	{
+		float:left;
+		width:30%;
+	}
+#tytul
+	{	
+		font-size:60px;
+		float:left;
+		width:70%;
+	}
