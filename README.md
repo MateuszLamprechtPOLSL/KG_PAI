@@ -26,11 +26,7 @@
       <a href="#getting-started">Getting Started</a>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -47,11 +43,13 @@ Księga Gości is a system that allows to manage persons currently visiting comp
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This section lists major frameworks/libraries used to bootstrap project.
 
 * [Bootstrap](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
 * [MySQL](https://www.mysql.com)
+* [PHP](https://www.php.net)
+* [JS](https://www.javascript.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -76,7 +74,7 @@ App has to approches, for guest and for admin.
 Guests are able to choose their purpose of visit. Based on that they will be redirected to appropriate consensts as well forms with basic informations like name, surname and company. After completing all informations and accepting consents which are required they will be registers. With that said provided information are transfered to part of the code that creates pdf files with all marked out informations and store them for legal required time. 
 
 Second approach is admin panel which allows to manage infomations, add future guests so the time of registering would be shorter. It also provides three tables which are:
-* List of current visitors - with options to download thier data in .pdf; deleting record after guest leave; adding guest to List of permament visitors
+* List of current visitors - deleting record after guest leave; adding guest to List of permament visitors
 * List of future visitors - with options to choose their language of preference which triggers app showed on another device to type previously filled informations, allowing guest to check them and accept consents; and delete record
 * List of permament visitors - with option to copy regular visitors that already accept consents to List of current visitors; and delete record
 
